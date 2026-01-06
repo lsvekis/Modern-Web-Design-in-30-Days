@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project 1 — Dynamic Personal Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Learning Journey</h1>
+    <p class="small">Project 1 — Dynamic Personal Website</p>
+  </header>
+
+  <main>
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>Hi! I’m learning modern web design. This page renders content from JavaScript data.</p>
+    </section>
+
+    <section class="card" id="controls" aria-label="Topic filters">
+      <h2>Filters</h2>
+      <div class="row">
+        <button class="btn active" data-filter="all" type="button">All</button>
+        <button class="btn" data-filter="HTML" type="button">HTML</button>
+        <button class="btn" data-filter="CSS" type="button">CSS</button>
+        <button class="btn" data-filter="JavaScript" type="button">JavaScript</button>
+      </div>
+      <p class="small">Tip: Use Tab + Enter (keyboard friendly).</p>
+    </section>
+
+    <section class="card" id="topics">
+      <h2>What I’m Learning</h2>
+      <!-- JavaScript will render cards here -->
+    </section>
+  </main>
+
+  <footer>
+    <p class="small">Built with HTML + CSS + JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
