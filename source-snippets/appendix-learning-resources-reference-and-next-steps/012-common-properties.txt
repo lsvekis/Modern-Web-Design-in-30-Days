@@ -1,0 +1,8 @@
+color
+background
+font-size
+margin
+padding
+display
+flex
+grid

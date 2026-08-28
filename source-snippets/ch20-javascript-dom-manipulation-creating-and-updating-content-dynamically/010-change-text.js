@@ -1,0 +1,1 @@
+heading.textContent = "Updated Title";

@@ -1,0 +1,9 @@
+color
+background-color
+font-size
+margin
+padding
+border
+width
+height
+display
