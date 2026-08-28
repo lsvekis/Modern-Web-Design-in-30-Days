@@ -1,0 +1,2 @@
+// Rendering functions
+function renderTopics() {}

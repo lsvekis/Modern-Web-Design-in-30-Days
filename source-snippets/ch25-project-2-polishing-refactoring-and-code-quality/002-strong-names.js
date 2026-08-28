@@ -1,0 +1,2 @@
+let activeFilter;
+function renderTopics() {}
