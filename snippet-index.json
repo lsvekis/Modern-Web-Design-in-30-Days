@@ -1,0 +1,3952 @@
+[
+  {
+    "start": 454,
+    "end": 465,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "2. The Minimal HTML Page (Your Foundation)",
+    "code": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>My First Website</title>\n</head>\n<body>\n  <h1>Hello, web!</h1>\n  <p>This is my first HTML page.</p>\n</body>\n</html>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 491,
+    "end": 493,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Headings",
+    "code": "<h1>Main Title</h1>\n<h2>Section Title</h2>\n<h3>Subsection Title</h3>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 498,
+    "end": 498,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Paragraphs",
+    "code": "<p>This is a paragraph of text.</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 502,
+    "end": 502,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Links (Anchor Tags)",
+    "code": "<a href=\"https://example.com\">Visit Example</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 505,
+    "end": 505,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Links (Anchor Tags)",
+    "code": "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener\">Visit Example</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 510,
+    "end": 510,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Images",
+    "code": "<img src=\"photo.jpg\" alt=\"A description of the image\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 516,
+    "end": 520,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Lists",
+    "code": "<ul>\n  <li>HTML</li>\n  <li>CSS</li>\n  <li>JavaScript</li>\n</ul>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 523,
+    "end": 527,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Lists",
+    "code": "<ol>\n  <li>Plan</li>\n  <li>Build</li>\n  <li>Improve</li>\n</ol>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 532,
+    "end": 536,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "<body>\n  <header>\n    <h1>My Web Design Journey</h1>\n    <p>Hi! I’m learning how to build websites with HTML, CSS, and JavaScript.</p>\n  </header>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 538,
+    "end": 544,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "  <main>\n    <section>\n      <h2>About Me</h2>\n      <p>\n        I’m a beginner learning web design in 30 days. My goal is to build and publish a real website.\n      </p>\n    </section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 546,
+    "end": 553,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "    <section>\n      <h2>What I’m Learning</h2>\n      <ul>\n        <li>HTML — structure</li>\n        <li>CSS — design</li>\n        <li>JavaScript — interaction</li>\n      </ul>\n    </section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 555,
+    "end": 561,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "    <section>\n      <h2>My Links</h2>\n      <p>\n        One site that inspires me is\n        <a href=\"https://developer.mozilla.org/\" target=\"_blank\" rel=\"noopener\">MDN Web Docs</a>.\n      </p>\n    </section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 563,
+    "end": 568,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "    <section>\n      <h2>Image</h2>\n      <p>Add an image file to your folder and reference it below.</p>\n      <img src=\"my-image.jpg\" alt=\"A personal or placeholder image for my homepage\" />\n    </section>\n  </main>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 570,
+    "end": 573,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "5. Learning Object 2 — Build a Real Starter Homepage",
+    "code": "  <footer>\n    <p>Made on Day 2 of my Web Design in 30 Days challenge.</p>\n  </footer>\n</body>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 586,
+    "end": 586,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Mistake 1 — Forgetting closing tags",
+    "code": "<p>This paragraph never closes...",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": true
+  },
+  {
+    "start": 589,
+    "end": 589,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Mistake 1 — Forgetting closing tags",
+    "code": "<p>This paragraph closes.</p>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 594,
+    "end": 594,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Mistake 2 — Incorrect nesting",
+    "code": "<p><h2>Title</h2></p>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 597,
+    "end": 598,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Mistake 2 — Incorrect nesting",
+    "code": "<h2>Title</h2>\n<p>Text</p>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 642,
+    "end": 649,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Exercise 4 — “About Page Upgrade”",
+    "code": "<section>\n  <h2>Goals</h2>\n  <ol>\n    <li>Build a clean homepage</li>\n    <li>Style it with CSS</li>\n    <li>Add interactivity with JavaScript</li>\n  </ol>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 651,
+    "end": 657,
+    "chapter": "Chapter 2 — Your First Website: Writing HTML from Scratch",
+    "section": "Exercise 4 — “About Page Upgrade”",
+    "code": "<section>\n  <h2>Contact</h2>\n  <p>\n    Email: <a href=\"mailto:hello@example.com\">hello@example.com</a><br />\n    Website: <a href=\"https://example.com\" target=\"_blank\" rel=\"noopener\">example.com</a>\n  </p>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 732,
+    "end": 734,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Heading Levels and Meaning",
+    "code": "<h1>Main Page Title</h1>\n<h2>Major Section</h2>\n<h3>Subsection</h3>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 749,
+    "end": 749,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Paragraphs",
+    "code": "<p>This is a paragraph of text.</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 756,
+    "end": 757,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Emphasis",
+    "code": "<strong>Important text</strong>\n<em>Emphasized text</em>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 764,
+    "end": 764,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Line Breaks (Use Sparingly)",
+    "code": "<br />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 771,
+    "end": 771,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Basic Link",
+    "code": "<a href=\"https://example.com\">Visit Example</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 775,
+    "end": 777,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Opening in a New Tab",
+    "code": "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener\">\n  Visit Example\n</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 781,
+    "end": 781,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Email Link",
+    "code": "<a href=\"mailto:hello@example.com\">Email Me</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 787,
+    "end": 787,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Common Beginner Mistake",
+    "code": "<a href=\"https://example.com\">Read the full documentation</a>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 804,
+    "end": 804,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Basic Image Tag",
+    "code": "<img src=\"photo.jpg\" alt=\"A description of the image\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 812,
+    "end": 812,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Folder Organization (Best Practice)",
+    "code": "web-design-day3/",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 818,
+    "end": 818,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Folder Organization (Best Practice)",
+    "code": "<img src=\"images/profile.jpg\" alt=\"Portrait photo of me\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 830,
+    "end": 835,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Common Layout Structure",
+    "code": "<header>Intro content</header>\n<nav>Navigation links</nav>\n<main>Main content</main>\n<section>Grouped content</section>\n<article>Independent content</article>\n<footer>Closing info</footer>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 839,
+    "end": 843,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Example: Improved Page Layout",
+    "code": "<body>\n  <header>\n    <h1>My Web Design Journey</h1>\n    <p>Learning modern web design step by step.</p>\n  </header>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 845,
+    "end": 849,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Example: Improved Page Layout",
+    "code": "  <nav>\n    <a href=\"#about\">About</a> |\n    <a href=\"#learning\">Learning</a> |\n    <a href=\"#contact\">Contact</a>\n  </nav>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 851,
+    "end": 855,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Example: Improved Page Layout",
+    "code": "  <main>\n    <section id=\"about\">\n      <h2>About Me</h2>\n      <p>I’m learning web design in 30 days.</p>\n    </section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 857,
+    "end": 865,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Example: Improved Page Layout",
+    "code": "    <section id=\"learning\">\n      <h2>What I’m Learning</h2>\n      <ul>\n        <li>HTML structure</li>\n        <li>CSS design</li>\n        <li>JavaScript interaction</li>\n      </ul>\n    </section>\n  </main>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 867,
+    "end": 870,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Example: Improved Page Layout",
+    "code": "  <footer>\n    <p>Day 3 — Modern Web Design for Beginners</p>\n  </footer>\n</body>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 912,
+    "end": 912,
+    "chapter": "Chapter 3 — Text, Links, Images & Page Structure",
+    "section": "Exercise 7",
+    "code": "<a href=\"#contact\">Jump to Contact</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 985,
+    "end": 987,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "2. How CSS Works (Mental Model)",
+    "code": "selector {\n  property: value;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 990,
+    "end": 992,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "2. How CSS Works (Mental Model)",
+    "code": "p {\n  color: blue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1000,
+    "end": 1002,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Exercise 1 — Read CSS Out Loud",
+    "code": "h1 {\n  color: darkblue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1009,
+    "end": 1009,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Step 1 — Create a CSS File",
+    "code": "styles.css",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1013,
+    "end": 1013,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Step 2 — Link CSS in HTML <head>",
+    "code": "<link rel=\"stylesheet\" href=\"styles.css\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1019,
+    "end": 1021,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Exercise 2 — Test the Connection",
+    "code": "body {\n  background-color: #f5f5f5;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1028,
+    "end": 1030,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Font Basics",
+    "code": "body {\n  font-family: Arial, sans-serif;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1035,
+    "end": 1037,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Font Size",
+    "code": "p {\n  font-size: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1041,
+    "end": 1043,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Text Color",
+    "code": "p {\n  color: #333;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1055,
+    "end": 1057,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Background Color",
+    "code": "body {\n  background-color: white;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1061,
+    "end": 1063,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Section Backgrounds",
+    "code": "section {\n  background-color: #ffffff;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1083,
+    "end": 1085,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Margin — Space outside an element",
+    "code": "section {\n  margin: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1089,
+    "end": 1091,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Padding — Space inside an element",
+    "code": "section {\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1107,
+    "end": 1112,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Starter CSS Example",
+    "code": "body {\n  font-family: Arial, sans-serif;\n  background-color: #f4f4f4;\n  color: #333;\n  margin: 0;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1114,
+    "end": 1118,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Starter CSS Example",
+    "code": "header, main, footer {\n  max-width: 800px;\n  margin: auto;\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1120,
+    "end": 1122,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Starter CSS Example",
+    "code": "header {\n  background-color: #ffffff;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1124,
+    "end": 1128,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Starter CSS Example",
+    "code": "footer {\n  text-align: center;\n  font-size: 14px;\n  color: #666;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1168,
+    "end": 1173,
+    "chapter": "Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website",
+    "section": "Exercise 8",
+    "code": "/* \nColor palette:\nBackground: #f4f4f4\nText: #333\nAccent: #2c7be5\n*/",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1231,
+    "end": 1233,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "1. What Is a CSS Selector?",
+    "code": "p {\n  color: blue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1240,
+    "end": 1242,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "Read Selectors Like Sentences",
+    "code": "header p {\n  color: green;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1248,
+    "end": 1250,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "2. Element (Type) Selectors",
+    "code": "h1 {\n  color: darkblue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1252,
+    "end": 1254,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "2. Element (Type) Selectors",
+    "code": "p {\n  font-size: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1270,
+    "end": 1270,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "HTML",
+    "code": "<p class=\"highlight\">This paragraph is important.</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1273,
+    "end": 1275,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "CSS",
+    "code": ".highlight {\n  background-color: yellow;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1295,
+    "end": 1297,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "HTML",
+    "code": "<section id=\"about\">\n  <h2>About Me</h2>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1300,
+    "end": 1302,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "CSS",
+    "code": "#about {\n  border: 2px solid #ccc;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1317,
+    "end": 1319,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "5. Combining Selectors (More Control)",
+    "code": "section p {\n  line-height: 1.6;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1324,
+    "end": 1326,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "Another Example",
+    "code": "header h1 {\n  margin-bottom: 10px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1345,
+    "end": 1347,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "Example",
+    "code": "p {\n  color: blue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1349,
+    "end": 1351,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "Example",
+    "code": ".highlight {\n  color: red;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1367,
+    "end": 1369,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "8. Order Matters (Last Rule Wins)",
+    "code": "p {\n  color: blue;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1371,
+    "end": 1373,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "8. Order Matters (Last Rule Wins)",
+    "code": "p {\n  color: green;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1383,
+    "end": 1386,
+    "chapter": "Chapter 5 — CSS Selectors & the Cascade: How Styles Are Applied",
+    "section": "9. Inheritance (What Flows Down)",
+    "code": "body {\n  font-family: Arial, sans-serif;\n  color: #333;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1502,
+    "end": 1505,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "The Four Parts of the Box Model",
+    "code": "[ margin ]\n  [ border ]\n    [ padding ]\n      [ content ]",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1511,
+    "end": 1513,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "2. Padding: Space Inside the Element",
+    "code": "section {\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1518,
+    "end": 1521,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Individual Padding Sides",
+    "code": "padding-top: 20px;\npadding-right: 30px;\npadding-bottom: 20px;\npadding-left: 30px;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1525,
+    "end": 1528,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Shorthand Padding",
+    "code": "padding: 20px;            /* all sides */\npadding: 10px 20px;      /* top/bottom, left/right */\npadding: 10px 20px 30px; /* top, left/right, bottom */\npadding: 10px 20px 30px 40px; /* top, right, bottom, left */",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1540,
+    "end": 1542,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "3. Margin: Space Outside the Element",
+    "code": "section {\n  margin-bottom: 30px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1560,
+    "end": 1562,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "4. Borders: Seeing the Invisible",
+    "code": "section {\n  border: 1px solid #ddd;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1579,
+    "end": 1579,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Default Behavior (Important!)",
+    "code": "width = content only",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1585,
+    "end": 1588,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Example Problem",
+    "code": "section {\n  width: 300px;\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1594,
+    "end": 1596,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Best Practice",
+    "code": "* {\n  box-sizing: border-box;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1599,
+    "end": 1599,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Best Practice",
+    "code": "width = content + padding + border",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1610,
+    "end": 1613,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "Center a Block Horizontally",
+    "code": "main {\n  max-width: 800px;\n  margin: auto;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1629,
+    "end": 1629,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "❌ Using <br> Instead of Margin",
+    "code": "<br><br><br>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 1632,
+    "end": 1634,
+    "chapter": "Chapter 6 — The CSS Box Model: Spacing, Borders & Visual Balance",
+    "section": "❌ Using <br> Instead of Margin",
+    "code": "section {\n  margin-bottom: 30px;\n}",
+    "lang": "css",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 1749,
+    "end": 1751,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Example",
+    "code": "<h1>Title</h1>\n<p>Paragraph one</p>\n<p>Paragraph two</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1771,
+    "end": 1774,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Block Example",
+    "code": "section {\n  background: #eee;\n  margin-bottom: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1795,
+    "end": 1797,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Inline Example",
+    "code": "<p>\n  This is <strong>important</strong> text with a <a href=\"#\">link</a>.\n</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1810,
+    "end": 1816,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Example",
+    "code": ".card {\n  display: inline-block;\n  width: 200px;\n  padding: 16px;\n  margin: 10px;\n  background: #fff;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1831,
+    "end": 1834,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Example",
+    "code": "nav a {\n  display: inline-block;\n  margin-right: 15px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1846,
+    "end": 1849,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "display: none",
+    "code": "display: none\n.hidden {\n  display: none;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1863,
+    "end": 1863,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Static (Default)",
+    "code": "position: static;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1868,
+    "end": 1870,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Relative Positioning",
+    "code": "position: relative;\ntop: 10px;\nleft: 10px;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1883,
+    "end": 1883,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "❌ Expecting Inline Elements to Accept Width",
+    "code": "display: inline-block;",
+    "lang": "css",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 1928,
+    "end": 1932,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Exercise 10",
+    "code": "<nav>\n  <a href=\"#\">Home</a>\n  <a href=\"#\">About</a>\n  <a href=\"#\">Contact</a>\n</nav>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 1934,
+    "end": 1937,
+    "chapter": "Chapter 7 — CSS Layout Basics: Display, Flow & Positioning",
+    "section": "Exercise 10",
+    "code": "nav a {\n  display: inline-block;\n  margin-right: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2005,
+    "end": 2007,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Flex Container",
+    "code": ".container {\n  display: flex;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2012,
+    "end": 2016,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Flex Items",
+    "code": "<div class=\"container\">\n  <div class=\"item\">One</div>\n  <div class=\"item\">Two</div>\n  <div class=\"item\">Three</div>\n</div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2030,
+    "end": 2030,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "3. Main Axis vs Cross Axis (Critical Concept)",
+    "code": "flex-direction: row;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2045,
+    "end": 2048,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "4. flex-direction: Controlling Layout Direction",
+    "code": ".container {\n  display: flex;\n  flex-direction: row;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2064,
+    "end": 2068,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "5. Aligning Items with justify-content",
+    "code": "justify-content: flex-start;\njustify-content: center;\njustify-content: space-between;\njustify-content: space-around;\njustify-content: space-evenly;",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2072,
+    "end": 2075,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Example — Center Navigation",
+    "code": "nav {\n  display: flex;\n  justify-content: center;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2085,
+    "end": 2088,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "6. Aligning Items with align-items",
+    "code": "align-items: stretch;\nalign-items: center;\nalign-items: flex-start;\nalign-items: flex-end;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2092,
+    "end": 2095,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Example — Vertical Centering",
+    "code": ".container {\n  display: flex;\n  align-items: center;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2106,
+    "end": 2111,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "HTML",
+    "code": "<nav class=\"nav\">\n  <a href=\"#\">Home</a>\n  <a href=\"#\">About</a>\n  <a href=\"#\">Projects</a>\n  <a href=\"#\">Contact</a>\n</nav>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2114,
+    "end": 2118,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "CSS",
+    "code": ".nav {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2127,
+    "end": 2130,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "8. Spacing with gap (Modern Best Practice)",
+    "code": ".container {\n  display: flex;\n  gap: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2186,
+    "end": 2190,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Exercise 10",
+    "code": "<div class=\"cards\">\n  <div class=\"card\">HTML</div>\n  <div class=\"card\">CSS</div>\n  <div class=\"card\">JavaScript</div>\n</div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2192,
+    "end": 2195,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Exercise 10",
+    "code": ".cards {\n  display: flex;\n  gap: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2197,
+    "end": 2201,
+    "chapter": "Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts",
+    "section": "Exercise 10",
+    "code": ".card {\n  padding: 20px;\n  background: #fff;\n  border: 1px solid #ddd;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2270,
+    "end": 2273,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "2. Wrapping Flex Items with flex-wrap",
+    "code": ".container {\n  display: flex;\n  flex-wrap: nowrap;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2277,
+    "end": 2280,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "Enable Wrapping",
+    "code": ".container {\n  display: flex;\n  flex-wrap: wrap;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2292,
+    "end": 2293,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "3. Combined Shorthand: flex-flow",
+    "code": "flex-direction: row;\nflex-wrap: wrap;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2296,
+    "end": 2296,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "3. Combined Shorthand: flex-flow",
+    "code": "flex-flow: row wrap;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2308,
+    "end": 2308,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "4. Flexible Sizing: The flex Property",
+    "code": "flex: grow shrink basis;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2311,
+    "end": 2313,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "4. Flexible Sizing: The flex Property",
+    "code": ".card {\n  flex: 1 1 200px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2330,
+    "end": 2332,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "5. Understanding flex-grow",
+    "code": ".item {\n  flex-grow: 1;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2347,
+    "end": 2349,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "6. Understanding flex-shrink",
+    "code": ".item {\n  flex-shrink: 1;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2359,
+    "end": 2361,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "7. Understanding flex-basis",
+    "code": ".card {\n  flex-basis: 250px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2367,
+    "end": 2369,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "Exercise 6 — Responsive Card Grid",
+    "code": ".card {\n  flex: 1 1 250px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2377,
+    "end": 2377,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "8. Aligning Wrapped Rows",
+    "code": "align-content: space-between;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2391,
+    "end": 2391,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "❌ Fixed Widths Everywhere",
+    "code": "width: 400px;",
+    "lang": "css",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 2394,
+    "end": 2394,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "❌ Fixed Widths Everywhere",
+    "code": "flex: 1 1 300px;",
+    "lang": "css",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 2439,
+    "end": 2444,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "Exercise 11",
+    "code": "<div class=\"features\">\n  <div class=\"feature\">Fast</div>\n  <div class=\"feature\">Responsive</div>\n  <div class=\"feature\">Accessible</div>\n  <div class=\"feature\">Modern</div>\n</div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2446,
+    "end": 2450,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "Exercise 11",
+    "code": ".features {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2452,
+    "end": 2457,
+    "chapter": "Chapter 9 — Flexbox Advanced: Wrapping, Sizing & Responsive Behavior",
+    "section": "Exercise 11",
+    "code": ".feature {\n  flex: 1 1 200px;\n  padding: 20px;\n  background: #fff;\n  border: 1px solid #ddd;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2546,
+    "end": 2548,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "3. Media Queries: Conditional CSS",
+    "code": "@media (min-width: 768px) {\n  /* styles apply at 768px and up */\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2566,
+    "end": 2568,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "5. Mobile-First CSS Structure",
+    "code": "body {\n  font-family: Arial, sans-serif;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2570,
+    "end": 2573,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "5. Mobile-First CSS Structure",
+    "code": ".nav {\n  display: flex;\n  flex-direction: column;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2576,
+    "end": 2581,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "5. Mobile-First CSS Structure",
+    "code": "@media (min-width: 768px) {\n  .nav {\n    flex-direction: row;\n    justify-content: space-between;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2597,
+    "end": 2601,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example — Layout Enhancement",
+    "code": ".cards {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2603,
+    "end": 2607,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example — Layout Enhancement",
+    "code": "@media (min-width: 900px) {\n  .cards {\n    flex-direction: row;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2620,
+    "end": 2622,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example — Responsive Font Size",
+    "code": "body {\n  font-size: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2624,
+    "end": 2628,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example — Responsive Font Size",
+    "code": "@media (min-width: 1024px) {\n  body {\n    font-size: 18px;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2644,
+    "end": 2646,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example",
+    "code": ".desktop-only {\n  display: none;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2648,
+    "end": 2652,
+    "chapter": "Chapter 10 — Responsive Design Fundamentals: Mobile-First & Media Queries",
+    "section": "Example",
+    "code": "@media (min-width: 768px) {\n  .desktop-only {\n    display: block;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2778,
+    "end": 2780,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "2. The Grid Mental Model",
+    "code": ".container {\n  display: grid;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2786,
+    "end": 2789,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "Basic Grid Columns",
+    "code": ".container {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2797,
+    "end": 2797,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "The fr Unit (Fractional Space)",
+    "code": "grid-template-columns: 1fr 2fr;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2809,
+    "end": 2809,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "4. Defining Rows",
+    "code": "grid-template-rows: auto auto;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2822,
+    "end": 2824,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "5. Gaps: Clean Spacing Between Grid Items",
+    "code": ".container {\n  gap: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2827,
+    "end": 2828,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "5. Gaps: Clean Spacing Between Grid Items",
+    "code": "row-gap: 20px;\ncolumn-gap: 10px;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2839,
+    "end": 2843,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "6. Grid Items & Placement Basics",
+    "code": "<div class=\"grid\">\n  <div>One</div>\n  <div>Two</div>\n  <div>Three</div>\n</div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2847,
+    "end": 2849,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "Manual Placement (Intro)",
+    "code": ".item {\n  grid-column: 1 / 3;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2860,
+    "end": 2865,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "HTML",
+    "code": "<section class=\"features\">\n  <div class=\"feature\">Fast</div>\n  <div class=\"feature\">Responsive</div>\n  <div class=\"feature\">Accessible</div>\n  <div class=\"feature\">Modern</div>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2868,
+    "end": 2872,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "CSS",
+    "code": ".features {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2880,
+    "end": 2883,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "8. Responsive Grid with auto-fit & minmax",
+    "code": ".grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2897,
+    "end": 2901,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "9. Grid + Media Queries (Optional Enhancement)",
+    "code": "@media (min-width: 900px) {\n  .layout {\n    grid-template-columns: 250px 1fr;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 2958,
+    "end": 2958,
+    "chapter": "Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts",
+    "section": "Exercise 11",
+    "code": "repeat(auto-fit, minmax())",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3034,
+    "end": 3036,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "System Fonts (Beginner-Friendly)",
+    "code": "body {\n  font-family: Arial, Helvetica, sans-serif;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3053,
+    "end": 3055,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Base Font Size",
+    "code": "body {\n  font-size: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3060,
+    "end": 3062,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Line Height (Critical!)",
+    "code": "p {\n  line-height: 1.6;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3081,
+    "end": 3083,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Example Hierarchy",
+    "code": "h1 {\n  font-size: 32px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3085,
+    "end": 3087,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Example Hierarchy",
+    "code": "h2 {\n  font-size: 24px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3089,
+    "end": 3091,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Example Hierarchy",
+    "code": "p {\n  font-size: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3095,
+    "end": 3098,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Weight & Spacing Matter Too",
+    "code": "h2 {\n  font-weight: 600;\n  margin-bottom: 12px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3123,
+    "end": 3127,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "6. Choosing a Simple Color Palette",
+    "code": ":root {\n  --bg: #f5f5f5;\n  --text: #333333;\n  --accent: #2c7be5;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3131,
+    "end": 3134,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Use Variables (Optional but Powerful)",
+    "code": "body {\n  background-color: var(--bg);\n  color: var(--text);\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3162,
+    "end": 3164,
+    "chapter": "Chapter 12 — Typography & Color in Web Design: Readability, Hierarchy & Mood",
+    "section": "Example — Links",
+    "code": "a {\n  color: var(--accent);\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3285,
+    "end": 3285,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Use a Link When:",
+    "code": "<a href=\"/about.html\">About</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3292,
+    "end": 3292,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Use a Button When:",
+    "code": "<button>Submit</button>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3298,
+    "end": 3298,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Basic Button",
+    "code": "<button>Click Me</button>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3302,
+    "end": 3304,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Button Inside a Form",
+    "code": "<form>\n  <button type=\"submit\">Send</button>\n</form>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3323,
+    "end": 3331,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Basic Button Style",
+    "code": "button {\n  padding: 12px 20px;\n  font-size: 16px;\n  background-color: var(--accent);\n  color: white;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3335,
+    "end": 3337,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Hover State (Feedback!)",
+    "code": "button:hover {\n  background-color: #1f5fc4;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3355,
+    "end": 3357,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "5. Basic Form Structure",
+    "code": "<form>\n  <label for=\"name\">Name</label>\n  <input type=\"text\" id=\"name\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3359,
+    "end": 3360,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "5. Basic Form Structure",
+    "code": "  <label for=\"email\">Email</label>\n  <input type=\"email\" id=\"email\" />",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3362,
+    "end": 3363,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "5. Basic Form Structure",
+    "code": "  <button type=\"submit\">Send</button>\n</form>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3374,
+    "end": 3377,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "6. Common Input Types",
+    "code": "<input type=\"text\" />\n<input type=\"email\" />\n<input type=\"password\" />\n<textarea></textarea>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3395,
+    "end": 3397,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Basic Form Styles",
+    "code": "form {\n  max-width: 400px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3399,
+    "end": 3402,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Basic Form Styles",
+    "code": "label {\n  display: block;\n  margin-top: 16px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3404,
+    "end": 3408,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Basic Form Styles",
+    "code": "input, textarea {\n  width: 100%;\n  padding: 10px;\n  margin-top: 4px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3437,
+    "end": 3439,
+    "chapter": "Chapter 13 — Buttons, Forms & User Interaction Design",
+    "section": "Example — Focus State",
+    "code": "input:focus {\n  outline: 2px solid var(--accent);\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3576,
+    "end": 3576,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "External JavaScript File (Recommended)",
+    "code": "script.js",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3579,
+    "end": 3579,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "External JavaScript File (Recommended)",
+    "code": "<script src=\"script.js\"></script>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3587,
+    "end": 3587,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Exercise 1 — Script Connection Test",
+    "code": "console.log(\"JavaScript is connected!\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3599,
+    "end": 3599,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Using console.log()",
+    "code": "console.log(\"Hello from JavaScript\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3615,
+    "end": 3615,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Creating Variables",
+    "code": "let message = \"Hello World\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3621,
+    "end": 3621,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Logging Variables",
+    "code": "console.log(message);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3635,
+    "end": 3635,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Strings (Text)",
+    "code": "let name = \"Alex\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3639,
+    "end": 3639,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Numbers",
+    "code": "let day = 14;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3643,
+    "end": 3643,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Booleans (True / False)",
+    "code": "let isLearning = true;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3651,
+    "end": 3653,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "6. Reading JavaScript Like a Human",
+    "code": "let count = 3;\ncount = count + 1;\nconsole.log(count);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3671,
+    "end": 3671,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Selecting an Element",
+    "code": "document.querySelector(\"h1\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3676,
+    "end": 3676,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Changing Text",
+    "code": "document.querySelector(\"h1\").textContent = \"JavaScript Changed This!\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3707,
+    "end": 3707,
+    "chapter": "Chapter 14 — JavaScript Foundations: Bringing Websites to Life",
+    "section": "Exercise 8 — One Line at a Time",
+    "code": "// console.log(message);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3811,
+    "end": 3811,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "3. Selecting Elements for Events",
+    "code": "const button = document.querySelector(\"button\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3824,
+    "end": 3826,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "4. Adding an Event Listener",
+    "code": "button.addEventListener(\"click\", function () {\n  console.log(\"Button was clicked!\");\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3839,
+    "end": 3840,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "HTML",
+    "code": "<button id=\"changeText\">Click Me</button>\n<p id=\"message\">Nothing has happened yet.</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3844,
+    "end": 3845,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "JavaScript",
+    "code": "const button = document.querySelector(\"#changeText\");\nconst message = document.querySelector(\"#message\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3847,
+    "end": 3849,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "JavaScript",
+    "code": "button.addEventListener(\"click\", function () {\n  message.textContent = \"The button was clicked!\";\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3861,
+    "end": 3863,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "6. Understanding Event Handlers",
+    "code": "function handleClick() {\n  console.log(\"Clicked!\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3865,
+    "end": 3865,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "6. Understanding Event Handlers",
+    "code": "button.addEventListener(\"click\", handleClick);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3879,
+    "end": 3882,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "8. Events and Forms (Intro)",
+    "code": "form.addEventListener(\"submit\", function (event) {\n  event.preventDefault();\n  console.log(\"Form submitted!\");\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3891,
+    "end": 3893,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "9. The event Object (First Look)",
+    "code": "button.addEventListener(\"click\", function (event) {\n  console.log(event);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 3912,
+    "end": 3912,
+    "chapter": "Chapter 15 — JavaScript Events: Responding to User Actions",
+    "section": "❌ Inline Events",
+    "code": "<button onclick=\"doSomething()\">Click</button>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 4022,
+    "end": 4023,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "2. Boolean Values: True or False",
+    "code": "let isLoggedIn = true;\nlet isAdmin = false;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4038,
+    "end": 4039,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "Example",
+    "code": "let age = 20;\nconsole.log(age >= 18); // true",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4051,
+    "end": 4053,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "4. The if Statement (Core Decision Tool)",
+    "code": "if (condition) {\n  // code runs if condition is true\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4057,
+    "end": 4057,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "Example",
+    "code": "let score = 80;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4059,
+    "end": 4061,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "Example",
+    "code": "if (score >= 70) {\n  console.log(\"You passed!\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4070,
+    "end": 4074,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "5. else: Handling the Other Path",
+    "code": "if (score >= 70) {\n  console.log(\"You passed!\");\n} else {\n  console.log(\"Try again.\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4084,
+    "end": 4090,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "6. Multiple Conditions with else if",
+    "code": "if (score >= 90) {\n  console.log(\"Excellent\");\n} else if (score >= 70) {\n  console.log(\"Good job\");\n} else {\n  console.log(\"Needs improvement\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4101,
+    "end": 4103,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "AND (&&)",
+    "code": "if (age >= 18 && hasAccount) {\n  console.log(\"Access granted\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4108,
+    "end": 4110,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "OR (||)",
+    "code": "if (isAdmin || isModerator) {\n  console.log(\"Special access\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4115,
+    "end": 4117,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "NOT (!)",
+    "code": "if (!isLoggedIn) {\n  console.log(\"Please log in\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4129,
+    "end": 4131,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "HTML",
+    "code": "<input id=\"ageInput\" type=\"number\" />\n<button id=\"checkAge\">Check</button>\n<p id=\"result\"></p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4135,
+    "end": 4137,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "JavaScript",
+    "code": "const input = document.querySelector(\"#ageInput\");\nconst button = document.querySelector(\"#checkAge\");\nconst result = document.querySelector(\"#result\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4139,
+    "end": 4140,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "JavaScript",
+    "code": "button.addEventListener(\"click\", function () {\n  const age = Number(input.value);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4142,
+    "end": 4147,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "JavaScript",
+    "code": "  if (age >= 18) {\n    result.textContent = \"You are an adult.\";\n  } else {\n    result.textContent = \"You are under 18.\";\n  }\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4157,
+    "end": 4160,
+    "chapter": "Chapter 16 — JavaScript Logic: Conditions, Decisions & User Feedback",
+    "section": "9. Guard Clauses (Beginner-Friendly Safety)",
+    "code": "if (!input.value) {\n  result.textContent = \"Please enter a value.\";\n  return;\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4284,
+    "end": 4286,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "2. Creating Your First Function",
+    "code": "function sayHello() {\n  console.log(\"Hello!\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4291,
+    "end": 4291,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "Calling the Function",
+    "code": "sayHello();",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4303,
+    "end": 4305,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "3. Functions with Parameters (Input)",
+    "code": "function greet(name) {\n  console.log(\"Hello \" + name);\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4308,
+    "end": 4309,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "3. Functions with Parameters (Input)",
+    "code": "greet(\"Alex\");\ngreet(\"Jordan\");",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4323,
+    "end": 4325,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "4. Multiple Parameters",
+    "code": "function add(a, b) {\n  console.log(a + b);\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4336,
+    "end": 4338,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "5. Returning Values (Instead of Logging)",
+    "code": "function add(a, b) {\n  return a + b;\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4340,
+    "end": 4341,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "5. Returning Values (Instead of Logging)",
+    "code": "let result = add(3, 4);\nconsole.log(result);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4357,
+    "end": 4359,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "6. Functions + Events (Best Practice)",
+    "code": "button.addEventListener(\"click\", function () {\n  // lots of logic here\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4362,
+    "end": 4364,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "6. Functions + Events (Best Practice)",
+    "code": "function handleClick() {\n  console.log(\"Button clicked\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4366,
+    "end": 4366,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "6. Functions + Events (Best Practice)",
+    "code": "button.addEventListener(\"click\", handleClick);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4375,
+    "end": 4376,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "Before (Repeated Logic)",
+    "code": "console.log(\"Welcome!\");\nconsole.log('Today is Day 17');",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4380,
+    "end": 4383,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "After (Function)",
+    "code": "function showWelcome() {\n  console.log(\"Welcome!\");\n  console.log(\"Today is Day 17\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4408,
+    "end": 4410,
+    "chapter": "Chapter 17 — JavaScript Functions: Reusable Logic & Clean Code",
+    "section": "9. Scope (Beginner-Friendly Intro)",
+    "code": "function test() {\n  let message = \"Inside\";\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4529,
+    "end": 4529,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "1. What Is an Array?",
+    "code": "let skills = [\"HTML\", \"CSS\", \"JavaScript\"];",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4532,
+    "end": 4534,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "1. What Is an Array?",
+    "code": "let skill1 = \"HTML\";\nlet skill2 = \"CSS\";\nlet skill3 = \"JavaScript\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4547,
+    "end": 4549,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "2. Accessing Array Values (Indexing)",
+    "code": "skills[0]; // \"HTML\"\nskills[1]; // \"CSS\"\nskills[2]; // \"JavaScript\"",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4557,
+    "end": 4557,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "Exercise 1 — Index Awareness",
+    "code": "skills.length - 1",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4562,
+    "end": 4562,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "Change an Item",
+    "code": "skills[1] = \"Advanced CSS\";",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4566,
+    "end": 4566,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "Add an Item",
+    "code": "skills.push(\"React\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4570,
+    "end": 4570,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "Remove the Last Item",
+    "code": "skills.pop();",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4584,
+    "end": 4586,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "4. Why Loops Exist",
+    "code": "console.log(skills[0]);\nconsole.log(skills[1]);\nconsole.log(skills[2]);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4589,
+    "end": 4591,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "4. Why Loops Exist",
+    "code": "for (let i = 0; i < skills.length; i++) {\n  console.log(skills[i]);\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4596,
+    "end": 4598,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "5. The for Loop (Beginner Core)",
+    "code": "for (let i = 0; i < skills.length; i++) {\n  console.log(skills[i]);\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4610,
+    "end": 4610,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "6. Looping Through Arrays Safely",
+    "code": "array.length",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4619,
+    "end": 4619,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "HTML",
+    "code": "<ul id=\"skillList\"></ul>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4623,
+    "end": 4623,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "JavaScript",
+    "code": "const list = document.querySelector(\"#skillList\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4625,
+    "end": 4629,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "JavaScript",
+    "code": "skills.forEach(function (skill) {\n  const li = document.createElement(\"li\");\n  li.textContent = skill;\n  list.appendChild(li);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4638,
+    "end": 4640,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "8. forEach: A Friendlier Loop",
+    "code": "skills.forEach(function (skill) {\n  console.log(skill);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4651,
+    "end": 4655,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "9. Combining Loops with Logic",
+    "code": "skills.forEach(function (skill) {\n  if (skill === \"JavaScript\") {\n    console.log(\"Core skill found!\");\n  }\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4665,
+    "end": 4665,
+    "chapter": "Chapter 18 — JavaScript Arrays & Loops: Working with Lists of Data",
+    "section": "❌ Infinite Loops",
+    "code": "i++",
+    "lang": "txt",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 4767,
+    "end": 4771,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "1. What Is an Object?",
+    "code": "let user = {\n  name: \"Alex\",\n  age: 25,\n  isLearning: true\n};",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4774,
+    "end": 4776,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "1. What Is an Object?",
+    "code": "let name = \"Alex\";\nlet age = 25;\nlet isLearning = true;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4791,
+    "end": 4792,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "2. Object Properties & Values",
+    "code": "user.name; // \"Alex\"\nuser.age;  // 25",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4796,
+    "end": 4796,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Dot Notation (Most Common)",
+    "code": "console.log(user.name);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4800,
+    "end": 4800,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Bracket Notation (When Needed)",
+    "code": "console.log(user[\"age\"]);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4814,
+    "end": 4815,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "3. Updating Object Properties",
+    "code": "user.age = 26;\nuser.isLearning = false;",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4819,
+    "end": 4819,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Adding New Properties",
+    "code": "user.skill = \"JavaScript\";",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4829,
+    "end": 4829,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Array Example",
+    "code": "let skills = [\"HTML\", \"CSS\", \"JavaScript\"];",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4836,
+    "end": 4840,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Object Example",
+    "code": "let course = {\n  title: \"Modern Web Design\",\n  days: 30,\n  level: \"Beginner\"\n};",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4850,
+    "end": 4854,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "5. Objects Inside Arrays (Real-World Pattern)",
+    "code": "let students = [\n  { name: \"Alex\", level: \"Beginner\" },\n  { name: \"Jordan\", level: \"Intermediate\" },\n  { name: \"Sam\", level: \"Beginner\" }\n];",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4864,
+    "end": 4864,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "HTML",
+    "code": "<ul id=\"studentList\"></ul>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4868,
+    "end": 4868,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "JavaScript",
+    "code": "const list = document.querySelector(\"#studentList\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4870,
+    "end": 4874,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "JavaScript",
+    "code": "students.forEach(function (student) {\n  const li = document.createElement(\"li\");\n  li.textContent = student.name + \" — \" + student.level;\n  list.appendChild(li);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4882,
+    "end": 4883,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "7. Object Destructuring (Beginner-Friendly Intro)",
+    "code": "let name = user.name;\nlet age = user.age;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4886,
+    "end": 4886,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "7. Object Destructuring (Beginner-Friendly Intro)",
+    "code": "let { name, age } = user;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 4895,
+    "end": 4897,
+    "chapter": "Chapter 19 — JavaScript Objects: Modeling Real-World Data",
+    "section": "Using for...in",
+    "code": "for (let key in user) {\n  console.log(key + \": \" + user[key]);\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5020,
+    "end": 5021,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Mental Model",
+    "code": "<h1>Hello</h1>\n<p>Welcome</p>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5024,
+    "end": 5024,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Mental Model",
+    "code": "document",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5032,
+    "end": 5034,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "2. Selecting Elements (Quick Review)",
+    "code": "document.querySelector(\"h1\");\ndocument.querySelector(\"#main\");\ndocument.querySelector(\".card\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5049,
+    "end": 5050,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "3. Creating Elements Dynamically",
+    "code": "const p = document.createElement(\"p\");\np.textContent = \"This was created by JavaScript\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5055,
+    "end": 5055,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Adding It to the Page",
+    "code": "document.body.appendChild(p);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5069,
+    "end": 5069,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Example Data",
+    "code": "let topics = [\"HTML\", \"CSS\", \"JavaScript\"];",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5073,
+    "end": 5073,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Rendering with JavaScript",
+    "code": "const ul = document.createElement(\"ul\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5075,
+    "end": 5079,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Rendering with JavaScript",
+    "code": "topics.forEach(function (topic) {\n  const li = document.createElement(\"li\");\n  li.textContent = topic;\n  ul.appendChild(li);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5081,
+    "end": 5081,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Rendering with JavaScript",
+    "code": "document.body.appendChild(ul);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5089,
+    "end": 5089,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Change Text",
+    "code": "heading.textContent = \"Updated Title\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5093,
+    "end": 5093,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Change HTML (Use Carefully)",
+    "code": "element.innerHTML = \"<strong>Bold text</strong>\";",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5105,
+    "end": 5105,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "6. Removing Elements",
+    "code": "element.remove();",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5116,
+    "end": 5120,
+    "chapter": "Chapter 20 — JavaScript DOM Manipulation: Creating & Updating Content Dynamically",
+    "section": "Example",
+    "code": "button.addEventListener(\"click\", function () {\n  const item = document.createElement(\"li\");\n  item.textContent = \"New Item\";\n  list.appendChild(item);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5278,
+    "end": 5278,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "3. File Structure (Professional Habit)",
+    "code": "project/",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5294,
+    "end": 5301,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My Dynamic Website</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5303,
+    "end": 5305,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "  <header>\n    <h1>My Learning Journey</h1>\n  </header>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5307,
+    "end": 5311,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "  <main>\n    <section id=\"about\">\n      <h2>About Me</h2>\n      <p>I am learning modern web design.</p>\n    </section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5313,
+    "end": 5317,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "    <section id=\"topics\">\n      <h2>What I’m Learning</h2>\n      <!-- Dynamic content will go here -->\n    </section>\n  </main>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5319,
+    "end": 5321,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "  <footer>\n    <p>© 2026</p>\n  </footer>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5323,
+    "end": 5325,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Basic HTML Skeleton",
+    "code": "  <script src=\"script.js\"></script>\n</body>\n</html>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5341,
+    "end": 5344,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "styles.css",
+    "code": "styles.css\n* {\n  box-sizing: border-box;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5346,
+    "end": 5351,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "styles.css",
+    "code": "body {\n  margin: 0;\n  font-family: Arial, Helvetica, sans-serif;\n  background: #f5f5f5;\n  color: #333;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5353,
+    "end": 5357,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "styles.css",
+    "code": "header, footer {\n  background: #222;\n  color: white;\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5359,
+    "end": 5363,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "styles.css",
+    "code": "main {\n  max-width: 900px;\n  margin: auto;\n  padding: 20px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5365,
+    "end": 5367,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "styles.css",
+    "code": "section {\n  margin-bottom: 40px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5379,
+    "end": 5381,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "6. Typography & Hierarchy (Apply What You Learned)",
+    "code": "h1 {\n  margin: 0;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5383,
+    "end": 5385,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "6. Typography & Hierarchy (Apply What You Learned)",
+    "code": "h2 {\n  margin-bottom: 10px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5387,
+    "end": 5389,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "6. Typography & Hierarchy (Apply What You Learned)",
+    "code": "p {\n  line-height: 1.6;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5408,
+    "end": 5408,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "Data Preview (Don’t Code Yet)",
+    "code": "[\"HTML\", \"CSS\", \"JavaScript\"]",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5421,
+    "end": 5422,
+    "chapter": "Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)",
+    "section": "script.js",
+    "code": "script.js\nconsole.log(\"Project script connected\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5535,
+    "end": 5548,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "Example: Topics Data (Array of Objects)",
+    "code": "const topics = [\n  {\n    title: \"HTML\",\n    description: \"Structure and meaning of web pages\"\n  },\n  {\n    title: \"CSS\",\n    description: \"Layout, design, and visual styling\"\n  },\n  {\n    title: \"JavaScript\",\n    description: \"Logic, interaction, and dynamic behavior\"\n  }\n];",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5562,
+    "end": 5564,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "2. Identifying the Render Target",
+    "code": "<section id=\"topics\">\n  <h2>What I’m Learning</h2>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5569,
+    "end": 5569,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "Select the Container",
+    "code": "const topicsSection = document.querySelector(\"#topics\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5577,
+    "end": 5579,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "3. Creating a Render Function (Core Pattern)",
+    "code": "function renderTopics() {\n  // rendering logic will live here\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5588,
+    "end": 5592,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "4. Rendering One Topic (Step-by-Step)",
+    "code": "function renderTopics() {\n  topics.forEach(function (topic) {\n    const article = document.createElement(\"article\");\n    const title = document.createElement(\"h3\");\n    const desc = document.createElement(\"p\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5594,
+    "end": 5595,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "4. Rendering One Topic (Step-by-Step)",
+    "code": "    title.textContent = topic.title;\n    desc.textContent = topic.description;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5597,
+    "end": 5598,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "4. Rendering One Topic (Step-by-Step)",
+    "code": "    article.appendChild(title);\n    article.appendChild(desc);",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5600,
+    "end": 5602,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "4. Rendering One Topic (Step-by-Step)",
+    "code": "    topicsSection.appendChild(article);\n  });\n}",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5606,
+    "end": 5606,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "Call the Function",
+    "code": "renderTopics();",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5619,
+    "end": 5624,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "5. Styling the Dynamic Content",
+    "code": "#topics article {\n  background: white;\n  padding: 20px;\n  margin-bottom: 20px;\n  border-radius: 6px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5638,
+    "end": 5638,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "6. Clearing Content Before Re-Rendering (Important!)",
+    "code": "topicsSection.innerHTML = \"<h2>What I’m Learning</h2>\";",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5664,
+    "end": 5667,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "8. Refactoring for Readability",
+    "code": "function createTopicCard(topic) {\n  const article = document.createElement(\"article\");\n  const title = document.createElement(\"h3\");\n  const desc = document.createElement(\"p\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5669,
+    "end": 5670,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "8. Refactoring for Readability",
+    "code": "  title.textContent = topic.title;\n  desc.textContent = topic.description;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5672,
+    "end": 5674,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "8. Refactoring for Readability",
+    "code": "  article.append(title, desc);\n  return article;\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5677,
+    "end": 5678,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "8. Refactoring for Readability",
+    "code": "function renderTopics() {\n  topicsSection.innerHTML = \"<h2>What I’m Learning</h2>\";",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5680,
+    "end": 5683,
+    "chapter": "Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)",
+    "section": "8. Refactoring for Readability",
+    "code": "  topics.forEach(function (topic) {\n    topicsSection.appendChild(createTopicCard(topic));\n  });\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5799,
+    "end": 5804,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "2. Adding Controls to the HTML",
+    "code": "<section id=\"controls\">\n  <button data-filter=\"all\">All</button>\n  <button data-filter=\"HTML\">HTML</button>\n  <button data-filter=\"CSS\">CSS</button>\n  <button data-filter=\"JavaScript\">JavaScript</button>\n</section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5818,
+    "end": 5820,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "3. Styling the Controls (Usability First)",
+    "code": "#controls {\n  margin-bottom: 30px;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5822,
+    "end": 5826,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "3. Styling the Controls (Usability First)",
+    "code": "#controls button {\n  margin-right: 10px;\n  padding: 8px 14px;\n  cursor: pointer;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5838,
+    "end": 5838,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "4. Listening for User Interaction",
+    "code": "const buttons = document.querySelectorAll(\"#controls button\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5842,
+    "end": 5847,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Add Event Listeners",
+    "code": "buttons.forEach(function (button) {\n  button.addEventListener(\"click\", function () {\n    const filter = button.dataset.filter;\n    handleFilter(filter);\n  });\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5857,
+    "end": 5866,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "5. Creating the Filter Logic",
+    "code": "function handleFilter(filter) {\n  if (filter === \"all\") {\n    renderTopics(topics);\n  } else {\n    const filtered = topics.filter(function (topic) {\n      return topic.title === filter;\n    });\n    renderTopics(filtered);\n  }\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5871,
+    "end": 5872,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Update renderTopics",
+    "code": "function renderTopics(list) {\n  topicsSection.innerHTML = \"<h2>What I’m Learning</h2>\";",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5874,
+    "end": 5877,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Update renderTopics",
+    "code": "  list.forEach(function (topic) {\n    topicsSection.appendChild(createTopicCard(topic));\n  });\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5881,
+    "end": 5881,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Initial Render",
+    "code": "renderTopics(topics);",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5896,
+    "end": 5899,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "7. Adding Active State Feedback (UX Improvement)",
+    "code": "#controls button.active {\n  background: #333;\n  color: white;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5903,
+    "end": 5906,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Update JavaScript",
+    "code": "function updateActiveButton(activeButton) {\n  buttons.forEach(btn => btn.classList.remove(\"active\"));\n  activeButton.classList.add(\"active\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5909,
+    "end": 5909,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "Update JavaScript",
+    "code": "updateActiveButton(button);",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 5920,
+    "end": 5923,
+    "chapter": "Chapter 23 — Project 1: Interactivity & User Controls (Part 3)",
+    "section": "8. Guarding Against Edge Cases",
+    "code": "if (list.length === 0) {\n  topicsSection.innerHTML += \"<p>No topics found.</p>\";\n  return;\n}",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6061,
+    "end": 6061,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "Example Error Message",
+    "code": "Uncaught TypeError: Cannot read properties of null",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6078,
+    "end": 6078,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "4. Using console.log() Strategically",
+    "code": "console.log(\"hello\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6081,
+    "end": 6083,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "4. Using console.log() Strategically",
+    "code": "console.log(\"Button clicked\");\nconsole.log(userInput);\nconsole.log(topics.length);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6101,
+    "end": 6101,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "❌ ReferenceError",
+    "code": "x is not defined",
+    "lang": "txt",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 6108,
+    "end": 6108,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "❌ TypeError",
+    "code": "Cannot read properties of null",
+    "lang": "txt",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 6115,
+    "end": 6115,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "❌ SyntaxError",
+    "code": "Unexpected token",
+    "lang": "txt",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 6130,
+    "end": 6130,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "Problem: Element Is null",
+    "code": "document.querySelector(\"#topics\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6148,
+    "end": 6150,
+    "chapter": "Chapter 24 — Debugging, Errors & Developer Tools: Thinking Like a Developer",
+    "section": "7. Debugging Logic Errors (Hardest Kind)",
+    "code": "if (age > 18) {\n  console.log(\"Adult\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6315,
+    "end": 6316,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Weak Names",
+    "code": "let x;\nfunction doThing() {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6319,
+    "end": 6320,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Strong Names",
+    "code": "let activeFilter;\nfunction renderTopics() {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6333,
+    "end": 6337,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Problem Example",
+    "code": "function handleClick() {\n  // filter data\n  // update DOM\n  // log output\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6342,
+    "end": 6344,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Better Structure",
+    "code": "function handleFilterClick() {}\nfunction filterTopics() {}\nfunction renderTopics() {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6365,
+    "end": 6366,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Group Related Code",
+    "code": "// Data\nconst topics = [...]",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": true
+  },
+  {
+    "start": 6368,
+    "end": 6369,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Group Related Code",
+    "code": "// DOM references\nconst topicsSection = ...",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": true
+  },
+  {
+    "start": 6371,
+    "end": 6372,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Group Related Code",
+    "code": "// Rendering functions\nfunction renderTopics() {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6374,
+    "end": 6375,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Group Related Code",
+    "code": "// Event handlers\nfunction handleFilter() {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6404,
+    "end": 6406,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Refactor Example",
+    "code": "margin-bottom: 12px;\nmargin-bottom: 16px;\nmargin-bottom: 14px;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6409,
+    "end": 6409,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "Refactor Example",
+    "code": "margin-bottom: 16px;",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6421,
+    "end": 6421,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "9. Comments: When & Why",
+    "code": "// this function runs",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6424,
+    "end": 6424,
+    "chapter": "Chapter 25 — Project 2: Polishing, Refactoring & Code Quality",
+    "section": "9. Comments: When & Why",
+    "code": "// Renders topic cards based on active filter",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6545,
+    "end": 6549,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Good Example",
+    "code": "<header>\n  <nav>\n    <main>\n      <section>\n        <footer>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6552,
+    "end": 6554,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Bad Example",
+    "code": "<div>\n  <div>\n    <div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6571,
+    "end": 6573,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Good Structure",
+    "code": "<h1>Page Title</h1>\n<h2>Section</h2>\n<h3>Subsection</h3>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6588,
+    "end": 6591,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Recommended Defaults",
+    "code": "body {\n  font-size: 16px;\n  line-height: 1.6;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6605,
+    "end": 6605,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "❌ Bad",
+    "code": "<a href=\"#\">Click here</a>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 6608,
+    "end": 6608,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Good",
+    "code": "<a href=\"#\">View course topics</a>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6635,
+    "end": 6635,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "8. Focus Styles (Do Not Remove!)",
+    "code": "outline: none;",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6638,
+    "end": 6640,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "8. Focus Styles (Do Not Remove!)",
+    "code": ":focus {\n  outline: 2px solid #333;\n}",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6649,
+    "end": 6650,
+    "chapter": "Chapter 26 — Accessibility & Inclusive Web Design: Building for Everyone",
+    "section": "Good",
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\">",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6804,
+    "end": 6804,
+    "chapter": "Chapter 27 — Performance, Optimization & Best Practices: Making Websites Fast & Smooth",
+    "section": "Example",
+    "code": "main section div article p span { }",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6807,
+    "end": 6807,
+    "chapter": "Chapter 27 — Performance, Optimization & Best Practices: Making Websites Fast & Smooth",
+    "section": "Example",
+    "code": ".card-text { }",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6823,
+    "end": 6824,
+    "chapter": "Chapter 27 — Performance, Optimization & Best Practices: Making Websites Fast & Smooth",
+    "section": "Cache DOM References",
+    "code": "document.querySelector(\"#topics\");\ndocument.querySelector(\"#topics\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 6827,
+    "end": 6827,
+    "chapter": "Chapter 27 — Performance, Optimization & Best Practices: Making Websites Fast & Smooth",
+    "section": "Cache DOM References",
+    "code": "const topicsSection = document.querySelector(\"#topics\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7012,
+    "end": 7012,
+    "chapter": "Chapter 28 — Deployment & Publishing: Putting Your Website Online",
+    "section": "5. Preparing Your Files for GitHub Pages",
+    "code": "project/",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7053,
+    "end": 7053,
+    "chapter": "Chapter 28 — Deployment & Publishing: Putting Your Website Online",
+    "section": "❌ JavaScript Not Running",
+    "code": "<script src=\"script.js\"></script>",
+    "lang": "html",
+    "pedagogical_error": true,
+    "pseudocode": false
+  },
+  {
+    "start": 7086,
+    "end": 7086,
+    "chapter": "Chapter 28 — Deployment & Publishing: Putting Your Website Online",
+    "section": "9. Understanding URLs & Structure",
+    "code": "https://username.github.io/project-name/",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7828,
+    "end": 7828,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "A",
+    "code": "[\"HTML\", \"CSS\", \"JavaScript\"]",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7831,
+    "end": 7831,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "A",
+    "code": "<img src=\"image.jpg\" alt=\"Description\">",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7841,
+    "end": 7841,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "C",
+    "code": "<div class=\"card\"></div>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7855,
+    "end": 7857,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "F",
+    "code": "function greet() {\n  console.log(\"Hello\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7866,
+    "end": 7866,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "I",
+    "code": "<section id=\"topics\"></section>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7883,
+    "end": 7883,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "O",
+    "code": "{ name: \"Alex\", level: \"Beginner\" }",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7907,
+    "end": 7907,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "V",
+    "code": "let count = 0;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7918,
+    "end": 7925,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Basic Structure",
+    "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Page Title</title>\n</head>\n<body>\n</body>\n</html>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7928,
+    "end": 7932,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Common Elements",
+    "code": "<h1>Heading</h1>\n<p>Paragraph</p>\n<a href=\"#\">Link</a>\n<img src=\"image.jpg\" alt=\"Description\">\n<button>Click me</button>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7935,
+    "end": 7939,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Semantic Layout",
+    "code": "<header></header>\n<nav></nav>\n<main></main>\n<section></section>\n<footer></footer>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7944,
+    "end": 7946,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Basic Syntax",
+    "code": "selector {\n  property: value;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7949,
+    "end": 7956,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Common Properties",
+    "code": "color\nbackground\nfont-size\nmargin\npadding\ndisplay\nflex\ngrid",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7959,
+    "end": 7961,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Flexbox Basics",
+    "code": "display: flex;\njustify-content: center;\nalign-items: center;",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7964,
+    "end": 7968,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Media Query",
+    "code": "@media (max-width: 768px) {\n  body {\n    font-size: 14px;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7973,
+    "end": 7974,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Variables",
+    "code": "let name = \"Alex\";\nconst age = 25;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7977,
+    "end": 7979,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Functions",
+    "code": "function sayHello() {\n  console.log(\"Hello\");\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7982,
+    "end": 7983,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Arrays",
+    "code": "let items = [\"A\", \"B\", \"C\"];\nitems.push(\"D\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7986,
+    "end": 7989,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Objects",
+    "code": "let user = {\n  name: \"Alex\",\n  role: \"Beginner\"\n};",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7992,
+    "end": 7993,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Loops",
+    "code": "for (let i = 0; i < items.length; i++) {}\nitems.forEach(item => {});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 7998,
+    "end": 7999,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Selecting Elements",
+    "code": "document.querySelector(\"#id\");\ndocument.querySelector(\".class\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8002,
+    "end": 8002,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Creating Elements",
+    "code": "document.createElement(\"div\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8005,
+    "end": 8006,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Updating Content",
+    "code": "element.textContent = \"New text\";\nelement.innerHTML = \"<strong>Bold</strong>\";",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8009,
+    "end": 8009,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Events",
+    "code": "button.addEventListener(\"click\", handleClick);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8014,
+    "end": 8014,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Console Logging",
+    "code": "console.log(\"Message\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8042,
+    "end": 8049,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Basic Page Template",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Page Title</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8051,
+    "end": 8053,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Basic Page Template",
+    "code": "  <script src=\"script.js\"></script>\n</body>\n</html>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8057,
+    "end": 8062,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Common HTML Elements",
+    "code": "<h1>Heading</h1>\n<p>Paragraph</p>\n<a href=\"#\">Link</a>\n<img src=\"img.jpg\" alt=\"Description\">\n<button>Click</button>\n<input type=\"text\">",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8066,
+    "end": 8070,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Semantic Layout",
+    "code": "<header></header>\n<nav></nav>\n<main></main>\n<section></section>\n<footer></footer>",
+    "lang": "html",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8076,
+    "end": 8078,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "CSS Syntax",
+    "code": "selector {\n  property: value;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8082,
+    "end": 8090,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Common CSS Properties",
+    "code": "color\nbackground-color\nfont-size\nmargin\npadding\nborder\nwidth\nheight\ndisplay",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8098,
+    "end": 8101,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Flexbox Essentials",
+    "code": "display: flex;\njustify-content: center;\nalign-items: center;\ngap: 16px;",
+    "lang": "txt",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8105,
+    "end": 8108,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Typography Defaults (Recommended)",
+    "code": "body {\n  font-size: 16px;\n  line-height: 1.6;\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8112,
+    "end": 8116,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Media Query (Responsive)",
+    "code": "@media (max-width: 768px) {\n  body {\n    font-size: 14px;\n  }\n}",
+    "lang": "css",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8121,
+    "end": 8122,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Variables",
+    "code": "let count = 0;\nconst name = \"Alex\";",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8126,
+    "end": 8128,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Functions",
+    "code": "function greet(name) {\n  return \"Hello \" + name;\n}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8132,
+    "end": 8134,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Arrays",
+    "code": "let items = [\"HTML\", \"CSS\", \"JS\"];\nitems.push(\"DOM\");\nitems.length;",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8138,
+    "end": 8141,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Objects",
+    "code": "let user = {\n  name: \"Alex\",\n  level: \"Beginner\"\n};",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8145,
+    "end": 8145,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Loops",
+    "code": "for (let i = 0; i < items.length; i++) {}",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8147,
+    "end": 8149,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Loops",
+    "code": "items.forEach(item => {\n  console.log(item);\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8154,
+    "end": 8155,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Select Elements",
+    "code": "document.querySelector(\"#id\");\ndocument.querySelector(\".class\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8159,
+    "end": 8161,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Create & Add Elements",
+    "code": "const el = document.createElement(\"p\");\nel.textContent = \"Hello\";\ndocument.body.appendChild(el);",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8165,
+    "end": 8166,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Update & Remove",
+    "code": "element.textContent = \"New text\";\nelement.remove();",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8170,
+    "end": 8172,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Events",
+    "code": "button.addEventListener(\"click\", function () {\n  console.log(\"Clicked\");\n});",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  },
+  {
+    "start": 8177,
+    "end": 8177,
+    "chapter": "Appendix — Learning Resources, Reference & Next Steps",
+    "section": "Console Logging",
+    "code": "console.log(\"Debug here\");",
+    "lang": "js",
+    "pedagogical_error": false,
+    "pseudocode": false
+  }
+]

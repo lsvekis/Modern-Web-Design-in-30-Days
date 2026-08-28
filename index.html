@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="All 30 working lessons for Modern Web Design in 30 Days.">
+  <title>Modern Web Design in 30 Days — All Lessons</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5d687b;
+      --accent: #5b3cc4;
+      --accent-2: #00a8c6;
+      --border: #dfe5ee;
+      --shadow: 0 12px 28px rgba(23, 32, 51, 0.09);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    .hero {
+      background: linear-gradient(135deg, #4d2aa8, #7047d7 54%, #00a8c6);
+      color: #fff;
+      padding: 72px 24px 64px;
+    }
+    .hero-inner, main, footer {
+      width: min(1120px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 14px;
+      padding: 6px 12px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      font-size: .84rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(2.2rem, 5vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -.045em;
+    }
+    .hero p {
+      max-width: 800px;
+      margin: 22px 0 0;
+      color: rgba(255,255,255,.9);
+      font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+    main { padding: 44px 0 64px; }
+    .top-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .top-links a {
+      padding: 9px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 26px;
+    }
+    .intro h2 { margin: 0; font-size: clamp(1.55rem, 3vw, 2.2rem); }
+    .intro p { max-width: 720px; margin: 8px 0 0; color: var(--muted); }
+    .count {
+      flex: 0 0 auto;
+      padding: 8px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 285px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #cbbdf7;
+      box-shadow: 0 18px 38px rgba(23,32,51,.14);
+    }
+    .number {
+      display: inline-grid;
+      place-items: center;
+      width: 44px;
+      height: 38px;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      background: #efeafd;
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .card h3 { margin: 0; font-size: 1.18rem; line-height: 1.25; }
+    .card p { margin: 10px 0 22px; color: var(--muted); font-size: .94rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: auto 0 18px; }
+    .tag {
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #eef6f8;
+      color: #176b7c;
+      font-size: .76rem;
+      font-weight: 700;
+    }
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 11px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .button.secondary { background: #176b7c; }
+    .button:hover, .button:focus-visible { filter: brightness(.9); }
+    .button:focus-visible, a:focus-visible {
+      outline: 3px solid #23c5df;
+      outline-offset: 3px;
+    }
+    .note {
+      margin-top: 30px;
+      padding: 20px 22px;
+      border-left: 4px solid var(--accent-2);
+      border-radius: 0 14px 14px 0;
+      background: #fff;
+      color: var(--muted);
+    }
+    .note strong { color: var(--text); }
+    footer { padding: 0 0 48px; color: var(--muted); font-size: .9rem; }
+    footer a { color: var(--accent); font-weight: 700; }
+    .file-list { margin: 0; padding-left: 20px; }
+    .file-list li { margin: 7px 0; }
+    .file-list a { color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    }
+    @media (max-width: 620px) {
+      .hero { padding: 54px 20px 48px; }
+      .hero-inner, main, footer { width: min(100% - 28px, 1120px); }
+      .intro { align-items: start; flex-direction: column; }
+      .grid { grid-template-columns: 1fr; }
+      .card { min-height: auto; }
+    }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">30-Day Learning Journey</p>
+      <h1>Modern Web Design in 30 Days</h1>
+      <p>Navigate all 30 browser-ready lessons from one page and explore the HTML, CSS, and JavaScript examples that accompany the book.</p>
+    </div>
+  </header>
+  <main>
+    <div class="top-links">
+      <a href="source-snippets/index.html">Browse source-code snippets →</a>
+      <a href="working-examples/index.html">Compact 30-day index →</a>
+    </div>
+    <section class="intro" aria-labelledby="lessons-title">
+      <div>
+        <h2 id="lessons-title">All 30 lessons</h2>
+        <p>Open any lesson below to view the working example. Each card links directly to the browser-ready version.</p>
+      </div>
+      <span class="count">30 lessons</span>
+    </section>
+    <section class="grid" aria-label="All book lessons">
+      
+      <article class="card">
+        <span class="number">01</span>
+        <h3>HTML Foundations</h3>
+        <p>Start with semantic structure, headings, paragraphs, links, lists, and the core page skeleton.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">Semantics</span></div>
+        <a class="button" href="working-examples/01-html-foundations/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">02</span>
+        <h3>CSS Foundations</h3>
+        <p>Connect CSS and apply typography, color, spacing, widths, alignment, and box-model fundamentals.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">Box Model</span></div>
+        <a class="button" href="working-examples/02-css-foundations/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">03</span>
+        <h3>Flexbox</h3>
+        <p>Build one-dimensional layouts with direction, alignment, spacing, wrapping, and flexible sizing.</p>
+        <div class="tags"><span class="tag">Flexbox</span><span class="tag">Layout</span></div>
+        <a class="button" href="working-examples/03-flexbox/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">04</span>
+        <h3>Responsive Design</h3>
+        <p>Use mobile-first thinking, flexible layout rules, and correctly formed media queries.</p>
+        <div class="tags"><span class="tag">Responsive</span><span class="tag">Media Queries</span></div>
+        <a class="button" href="working-examples/04-responsive-design/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">05</span>
+        <h3>CSS Grid</h3>
+        <p>Create two-dimensional layouts using columns, repeat(), minmax(), auto-fit, gaps, and responsive behavior.</p>
+        <div class="tags"><span class="tag">Grid</span><span class="tag">Responsive</span></div>
+        <a class="button" href="working-examples/05-css-grid/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">06</span>
+        <h3>Typography &amp; Forms</h3>
+        <p>Improve readability and build styled, accessible controls with labels, inputs, buttons, and feedback.</p>
+        <div class="tags"><span class="tag">Typography</span><span class="tag">Forms</span></div>
+        <a class="button" href="working-examples/06-typography-forms/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">07</span>
+        <h3>JavaScript Foundations</h3>
+        <p>Work with variables, values, functions, DOM selection, events, conditions, and visible feedback.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Events</span></div>
+        <a class="button" href="working-examples/07-javascript-foundations/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">08</span>
+        <h3>Arrays, Objects &amp; DOM</h3>
+        <p>Render structured data with arrays, objects, loops, element creation, and DOM updates.</p>
+        <div class="tags"><span class="tag">Arrays</span><span class="tag">DOM</span></div>
+        <a class="button" href="working-examples/08-arrays-objects-dom/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">09</span>
+        <h3>Dynamic Personal Website</h3>
+        <p>Combine HTML, CSS, data-driven rendering, filtering, events, and responsive layout.</p>
+        <div class="tags"><span class="tag">Project</span><span class="tag">HTML + CSS + JS</span></div>
+        <a class="button" href="working-examples/09-dynamic-personal-website/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">10</span>
+        <h3>Responsive Design Fundamentals</h3>
+        <p>Practice mobile-first CSS, breakpoints, responsive typography, and conditional layout changes.</p>
+        <div class="tags"><span class="tag">Responsive</span><span class="tag">CSS</span></div>
+        <a class="button" href="working-examples/10-day-10/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">11</span>
+        <h3>CSS Grid Fundamentals</h3>
+        <p>Explore grid containers, tracks, fractional units, repeat(), auto-fit, minmax(), and responsive Grid.</p>
+        <div class="tags"><span class="tag">CSS Grid</span><span class="tag">Layout</span></div>
+        <a class="button" href="working-examples/11-day-11/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">12</span>
+        <h3>Typography &amp; Color</h3>
+        <p>Use font sizing, line height, hierarchy, color systems, and custom properties for readable design.</p>
+        <div class="tags"><span class="tag">Typography</span><span class="tag">Color</span></div>
+        <a class="button" href="working-examples/12-day-12/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">13</span>
+        <h3>Buttons, Forms &amp; Interaction</h3>
+        <p>Build clear buttons and form controls with hover, focus, labels, and user-friendly feedback.</p>
+        <div class="tags"><span class="tag">Forms</span><span class="tag">UX</span></div>
+        <a class="button" href="working-examples/13-day-13/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">14</span>
+        <h3>JavaScript Foundations</h3>
+        <p>Introduce JavaScript syntax, variables, values, console output, and simple page updates.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Basics</span></div>
+        <a class="button" href="working-examples/14-day-14/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">15</span>
+        <h3>JavaScript Events</h3>
+        <p>Respond to clicks and user actions with event listeners and DOM changes.</p>
+        <div class="tags"><span class="tag">Events</span><span class="tag">DOM</span></div>
+        <a class="button" href="working-examples/15-day-15/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">16</span>
+        <h3>JavaScript Logic</h3>
+        <p>Use booleans, comparisons, if/else decisions, guard clauses, and user feedback.</p>
+        <div class="tags"><span class="tag">Logic</span><span class="tag">Conditions</span></div>
+        <a class="button" href="working-examples/16-day-16/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">17</span>
+        <h3>JavaScript Functions</h3>
+        <p>Organize reusable logic with parameters, return values, named handlers, and clearer code structure.</p>
+        <div class="tags"><span class="tag">Functions</span><span class="tag">Refactoring</span></div>
+        <a class="button" href="working-examples/17-day-17/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">18</span>
+        <h3>Arrays &amp; Loops</h3>
+        <p>Store lists of values and process them efficiently with loops and array-driven rendering.</p>
+        <div class="tags"><span class="tag">Arrays</span><span class="tag">Loops</span></div>
+        <a class="button" href="working-examples/18-day-18/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">19</span>
+        <h3>JavaScript Objects</h3>
+        <p>Model related data with objects and combine objects with arrays for richer content.</p>
+        <div class="tags"><span class="tag">Objects</span><span class="tag">Data</span></div>
+        <a class="button" href="working-examples/19-day-19/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">20</span>
+        <h3>DOM Manipulation</h3>
+        <p>Create, update, append, and remove page content dynamically with JavaScript.</p>
+        <div class="tags"><span class="tag">DOM</span><span class="tag">Dynamic UI</span></div>
+        <a class="button" href="working-examples/20-day-20/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">21</span>
+        <h3>Project 1 — Personal Website</h3>
+        <p>Begin the larger project with a clean structure, reusable styles, and a maintainable foundation.</p>
+        <div class="tags"><span class="tag">Project</span><span class="tag">Structure</span></div>
+        <a class="button" href="working-examples/21-day-21/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">22</span>
+        <h3>Project 1 — Dynamic Content</h3>
+        <p>Move content into data and render reusable interface elements with JavaScript.</p>
+        <div class="tags"><span class="tag">Project</span><span class="tag">Rendering</span></div>
+        <a class="button" href="working-examples/22-day-22/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">23</span>
+        <h3>Project 1 — Filters &amp; Controls</h3>
+        <p>Add interactive controls, filtering, event handling, and re-rendering based on user choices.</p>
+        <div class="tags"><span class="tag">Project</span><span class="tag">Interactivity</span></div>
+        <a class="button" href="working-examples/23-day-23/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">24</span>
+        <h3>Debugging &amp; Developer Tools</h3>
+        <p>Practice reading errors, checking assumptions, tracing problems, and debugging systematically.</p>
+        <div class="tags"><span class="tag">Debugging</span><span class="tag">DevTools</span></div>
+        <a class="button" href="working-examples/24-day-24/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">25</span>
+        <h3>Refactoring &amp; Code Quality</h3>
+        <p>Improve names, functions, HTML structure, CSS consistency, comments, and remove dead code.</p>
+        <div class="tags"><span class="tag">Refactoring</span><span class="tag">Code Quality</span></div>
+        <a class="button" href="working-examples/25-day-25/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">26</span>
+        <h3>Accessibility &amp; Inclusive Design</h3>
+        <p>Apply semantic HTML, keyboard support, readable text, focus behavior, and inclusive design practices.</p>
+        <div class="tags"><span class="tag">Accessibility</span><span class="tag">A11y</span></div>
+        <a class="button" href="working-examples/26-day-26/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">27</span>
+        <h3>Performance &amp; Best Practices</h3>
+        <p>Reduce unnecessary work and improve the site&#x27;s loading and runtime behavior.</p>
+        <div class="tags"><span class="tag">Performance</span><span class="tag">Best Practices</span></div>
+        <a class="button" href="working-examples/27-day-27/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">28</span>
+        <h3>Deployment &amp; Publishing</h3>
+        <p>Prepare a static site for publishing, check file paths, and understand GitHub Pages deployment.</p>
+        <div class="tags"><span class="tag">Deployment</span><span class="tag">GitHub Pages</span></div>
+        <a class="button" href="working-examples/28-day-28/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">29</span>
+        <h3>Next Steps &amp; Portfolio</h3>
+        <p>Turn the project into a portfolio piece and map a practical path for continued learning.</p>
+        <div class="tags"><span class="tag">Portfolio</span><span class="tag">Next Steps</span></div>
+        <a class="button" href="working-examples/29-day-29/index.html">View lesson</a>
+      </article>
+      <article class="card">
+        <span class="number">30</span>
+        <h3>Final Capstone</h3>
+        <p>Review the full journey, make a final improvement, and present the completed project.</p>
+        <div class="tags"><span class="tag">Capstone</span><span class="tag">Project</span></div>
+        <a class="button" href="working-examples/30-day-30/index.html">View lesson</a>
+      </article>
+    </section>
+    <aside class="note">
+      <strong>GitHub Pages:</strong> keep this <code>index.html</code> in the repository root. Once GitHub Pages is enabled, this becomes the main navigation page for all lessons.
+    </aside>
+  </main>
+  <footer>
+    <p>Companion code for <strong>Modern Web Design in 30 Days</strong>. <a href="source-snippets/index.html">Browse the original source-code snippets</a>.</p>
+  </footer>
+</body>
+</html>

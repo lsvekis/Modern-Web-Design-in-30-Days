@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-code snippet index for Modern Web Design in 30 Days.">
+  <title>Modern Web Design in 30 Days — Source Code Snippets</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5d687b;
+      --accent: #5b3cc4;
+      --accent-2: #00a8c6;
+      --border: #dfe5ee;
+      --shadow: 0 12px 28px rgba(23, 32, 51, 0.09);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    .hero {
+      background: linear-gradient(135deg, #4d2aa8, #7047d7 54%, #00a8c6);
+      color: #fff;
+      padding: 72px 24px 64px;
+    }
+    .hero-inner, main, footer {
+      width: min(1120px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 14px;
+      padding: 6px 12px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      font-size: .84rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(2.2rem, 5vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -.045em;
+    }
+    .hero p {
+      max-width: 800px;
+      margin: 22px 0 0;
+      color: rgba(255,255,255,.9);
+      font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+    main { padding: 44px 0 64px; }
+    .top-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .top-links a {
+      padding: 9px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 26px;
+    }
+    .intro h2 { margin: 0; font-size: clamp(1.55rem, 3vw, 2.2rem); }
+    .intro p { max-width: 720px; margin: 8px 0 0; color: var(--muted); }
+    .count {
+      flex: 0 0 auto;
+      padding: 8px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 285px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #cbbdf7;
+      box-shadow: 0 18px 38px rgba(23,32,51,.14);
+    }
+    .number {
+      display: inline-grid;
+      place-items: center;
+      width: 44px;
+      height: 38px;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      background: #efeafd;
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .card h3 { margin: 0; font-size: 1.18rem; line-height: 1.25; }
+    .card p { margin: 10px 0 22px; color: var(--muted); font-size: .94rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: auto 0 18px; }
+    .tag {
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #eef6f8;
+      color: #176b7c;
+      font-size: .76rem;
+      font-weight: 700;
+    }
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 11px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .button.secondary { background: #176b7c; }
+    .button:hover, .button:focus-visible { filter: brightness(.9); }
+    .button:focus-visible, a:focus-visible {
+      outline: 3px solid #23c5df;
+      outline-offset: 3px;
+    }
+    .note {
+      margin-top: 30px;
+      padding: 20px 22px;
+      border-left: 4px solid var(--accent-2);
+      border-radius: 0 14px 14px 0;
+      background: #fff;
+      color: var(--muted);
+    }
+    .note strong { color: var(--text); }
+    footer { padding: 0 0 48px; color: var(--muted); font-size: .9rem; }
+    footer a { color: var(--accent); font-weight: 700; }
+    .file-list { margin: 0; padding-left: 20px; }
+    .file-list li { margin: 7px 0; }
+    .file-list a { color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    }
+    @media (max-width: 620px) {
+      .hero { padding: 54px 20px 48px; }
+      .hero-inner, main, footer { width: min(100% - 28px, 1120px); }
+      .intro { align-items: start; flex-direction: column; }
+      .grid { grid-template-columns: 1fr; }
+      .card { min-height: auto; }
+    }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Original manuscript code</p>
+      <h1>Source Code Snippets</h1>
+      <p>Browse the extracted HTML, CSS, JavaScript, and text snippets chapter by chapter. These preserve the book's individual teaching examples and fragments.</p>
+    </div>
+  </header>
+  <main>
+    <div class="top-links">
+      <a href="../index.html">← All working lessons</a>
+      <a href="../working-examples/index.html">Compact lesson index →</a>
+    </div>
+    <section class="intro" aria-labelledby="source-title">
+      <div>
+        <h2 id="source-title">Chapter-by-chapter source</h2>
+        <p>Choose a chapter to see every extracted snippet file. The browser-ready lessons are kept separately because many source snippets are intentionally small fragments rather than complete standalone pages.</p>
+      </div>
+      <span class="count">395 snippet files</span>
+    </section>
+    <section class="grid" aria-label="Source code chapters">
+      
+      <article class="card">
+        <span class="number">2</span>
+        <h3>Chapter 2 — Your First Website: Writing HTML from Scratch</h3>
+        <p>20 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span></div>
+        <a class="button secondary" href="ch02-your-first-website-writing-html-from-scratch/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">3</span>
+        <h3>Chapter 3 — Text, Links, Images &amp; Page Structure</h3>
+        <p>18 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch03-text-links-images-and-page-structure/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">4</span>
+        <h3>Chapter 4 — Introduction to CSS: Making Your Website Look Like a Website</h3>
+        <p>18 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch04-introduction-to-css-making-your-website-look-like-a-website/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">5</span>
+        <h3>Chapter 5 — CSS Selectors &amp; the Cascade: How Styles Are Applied</h3>
+        <p>15 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span></div>
+        <a class="button secondary" href="ch05-css-selectors-and-the-cascade-how-styles-are-applied/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">6</span>
+        <h3>Chapter 6 — The CSS Box Model: Spacing, Borders &amp; Visual Balance</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch06-the-css-box-model-spacing-borders-and-visual-balance/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">7</span>
+        <h3>Chapter 7 — CSS Layout Basics: Display, Flow &amp; Positioning</h3>
+        <p>11 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span></div>
+        <a class="button secondary" href="ch07-css-layout-basics-display-flow-and-positioning/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">8</span>
+        <h3>Chapter 8 — Flexbox Fundamentals: Designing One-Dimensional Layouts</h3>
+        <p>14 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch08-flexbox-fundamentals-designing-one-dimensional-layouts/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">9</span>
+        <h3>Chapter 9 — Flexbox Advanced: Wrapping, Sizing &amp; Responsive Behavior</h3>
+        <p>16 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span></div>
+        <a class="button secondary" href="ch09-flexbox-advanced-wrapping-sizing-and-responsive-behavior/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">10</span>
+        <h3>Chapter 10 — Responsive Design Fundamentals: Mobile-First &amp; Media Queries</h3>
+        <p>10 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span></div>
+        <a class="button secondary" href="ch10-responsive-design-fundamentals-mobile-first-and-media-queries/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">11</span>
+        <h3>Chapter 11 — CSS Grid Fundamentals: Two-Dimensional Layouts</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch11-css-grid-fundamentals-two-dimensional-layouts/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">12</span>
+        <h3>Chapter 12 — Typography &amp; Color in Web Design: Readability, Hierarchy &amp; Mood</h3>
+        <p>10 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span></div>
+        <a class="button secondary" href="ch12-typography-and-color-in-web-design-readability-hierarchy-and-mood/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">13</span>
+        <h3>Chapter 13 — Buttons, Forms &amp; User Interaction Design</h3>
+        <p>14 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span></div>
+        <a class="button secondary" href="ch13-buttons-forms-and-user-interaction-design/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">14</span>
+        <h3>Chapter 14 — JavaScript Foundations: Bringing Websites to Life</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch14-javascript-foundations-bringing-websites-to-life/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">15</span>
+        <h3>Chapter 15 — JavaScript Events: Responding to User Actions</h3>
+        <p>10 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span></div>
+        <a class="button secondary" href="ch15-javascript-events-responding-to-user-actions/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">16</span>
+        <h3>Chapter 16 — JavaScript Logic: Conditions, Decisions &amp; User Feedback</h3>
+        <p>15 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span></div>
+        <a class="button secondary" href="ch16-javascript-logic-conditions-decisions-and-user-feedback/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">17</span>
+        <h3>Chapter 17 — JavaScript Functions: Reusable Logic &amp; Clean Code</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch17-javascript-functions-reusable-logic-and-clean-code/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">18</span>
+        <h3>Chapter 18 — JavaScript Arrays &amp; Loops: Working with Lists of Data</h3>
+        <p>17 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch18-javascript-arrays-and-loops-working-with-lists-of-data/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">19</span>
+        <h3>Chapter 19 — JavaScript Objects: Modeling Real-World Data</h3>
+        <p>16 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch19-javascript-objects-modeling-real-world-data/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">20</span>
+        <h3>Chapter 20 — JavaScript DOM Manipulation: Creating &amp; Updating Content Dynamically</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch20-javascript-dom-manipulation-creating-and-updating-content-dynamically/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">21</span>
+        <h3>Chapter 21 — Project 1: Building a Dynamic Personal Website (Part 1)</h3>
+        <p>17 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch21-project-1-building-a-dynamic-personal-website-part-1/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">22</span>
+        <h3>Chapter 22 — Project 1: Dynamic Content with JavaScript (Part 2)</h3>
+        <p>16 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch22-project-1-dynamic-content-with-javascript-part-2/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">23</span>
+        <h3>Chapter 23 — Project 1: Interactivity &amp; User Controls (Part 3)</h3>
+        <p>13 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch23-project-1-interactivity-and-user-controls-part-3/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">24</span>
+        <h3>Chapter 24 — Debugging, Errors &amp; Developer Tools: Thinking Like a Developer</h3>
+        <p>8 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch24-debugging-errors-and-developer-tools-thinking-like-a-developer/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">25</span>
+        <h3>Chapter 25 — Project 2: Polishing, Refactoring &amp; Code Quality</h3>
+        <p>12 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch25-project-2-polishing-refactoring-and-code-quality/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">26</span>
+        <h3>Chapter 26 — Accessibility &amp; Inclusive Web Design: Building for Everyone</h3>
+        <p>9 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch26-accessibility-and-inclusive-web-design-building-for-everyone/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">27</span>
+        <h3>Chapter 27 — Performance, Optimization &amp; Best Practices: Making Websites Fast &amp; Smooth</h3>
+        <p>4 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch27-performance-optimization-and-best-practices-making-websites-fast-and-smooth/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">28</span>
+        <h3>Chapter 28 — Deployment &amp; Publishing: Putting Your Website Online</h3>
+        <p>3 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="ch28-deployment-and-publishing-putting-your-website-online/index.html">Browse snippets</a>
+      </article>
+      <article class="card">
+        <span class="number">A</span>
+        <h3>Appendix — Learning Resources, Reference &amp; Next Steps</h3>
+        <p>44 extracted source snippets from the original manuscript.</p>
+        <div class="tags"><span class="tag">CSS</span><span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">Text</span></div>
+        <a class="button secondary" href="appendix-learning-resources-reference-and-next-steps/index.html">Browse snippets</a>
+      </article>
+    </section>
+    <aside class="note">
+      <strong>Why two sections?</strong> <code>working-examples/</code> contains complete browser-ready demos. <code>source-snippets/</code> preserves the smaller code examples from the manuscript for reference.
+    </aside>
+  </main>
+  <footer><p>Companion source for <strong>Modern Web Design in 30 Days</strong>.</p></footer>
+</body>
+</html>
