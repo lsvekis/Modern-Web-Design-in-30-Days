@@ -1,0 +1,2 @@
+    article.appendChild(title);
+    article.appendChild(desc);

@@ -1,0 +1,3 @@
+    topicsSection.appendChild(article);
+  });
+}

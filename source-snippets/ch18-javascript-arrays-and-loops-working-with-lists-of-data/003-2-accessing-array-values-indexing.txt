@@ -1,0 +1,3 @@
+skills[0]; // "HTML"
+skills[1]; // "CSS"
+skills[2]; // "JavaScript"
