@@ -1,2 +1,0 @@
-user.name; // "Alex"
-user.age;  // 25
