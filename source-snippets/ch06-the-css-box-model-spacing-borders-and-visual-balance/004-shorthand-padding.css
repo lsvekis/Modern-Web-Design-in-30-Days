@@ -1,0 +1,4 @@
+padding: 20px;            /* all sides */
+padding: 10px 20px;      /* top/bottom, left/right */
+padding: 10px 20px 30px; /* top, left/right, bottom */
+padding: 10px 20px 30px 40px; /* top, right, bottom, left */
