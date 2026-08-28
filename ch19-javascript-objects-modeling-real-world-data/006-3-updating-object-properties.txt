@@ -1,0 +1,2 @@
+user.age = 26;
+user.isLearning = false;

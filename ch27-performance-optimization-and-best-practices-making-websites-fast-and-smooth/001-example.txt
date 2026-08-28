@@ -1,0 +1,1 @@
+main section div article p span { }
