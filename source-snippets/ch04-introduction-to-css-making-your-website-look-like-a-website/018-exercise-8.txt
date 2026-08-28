@@ -1,0 +1,6 @@
+/* 
+Color palette:
+Background: #f4f4f4
+Text: #333
+Accent: #2c7be5
+*/
