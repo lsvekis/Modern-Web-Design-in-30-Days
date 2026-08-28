@@ -2,6 +2,8 @@
 
 ## Learn HTML, CSS & JavaScript Through Hands-On Projects and Vibe Learning
 
+View https://lsvekis.github.io/Modern-Web-Design-in-30-Days/
+
 **Modern Web Design in 30 Days** is a practical, beginner-friendly journey through the foundations of modern web design and front-end development.
 
 Rather than treating HTML, CSS, and JavaScript as separate subjects to memorize, the book focuses on learning by building, experimenting, debugging, and improving real web pages.
