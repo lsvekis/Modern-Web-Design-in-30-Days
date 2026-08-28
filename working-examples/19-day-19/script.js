@@ -1,0 +1,1 @@
+const users=[{name:"Alex",level:"Beginner",topic:"HTML"},{name:"Jordan",level:"Intermediate",topic:"JavaScript"}]; const box=document.querySelector("#profiles"); users.forEach(({name,level,topic})=>{const card=document.createElement("article");card.innerHTML=`<h2>${name}</h2><p>${level}</p><p>Learning: ${topic}</p>`;box.appendChild(card);});

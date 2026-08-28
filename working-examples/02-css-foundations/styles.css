@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; }
+header, main, footer { max-width: 800px; margin: auto; padding: 20px; }
+header { background-color: #fff; }
+.card { background-color: #fff; border: 1px solid #ddd; padding: 20px; margin-bottom: 30px; }
+.highlight { background-color: #fff3a3; }
+nav a { display: inline-block; margin-right: 20px; }
+footer { text-align: center; font-size: 14px; color: #666; }

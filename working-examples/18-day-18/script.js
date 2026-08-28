@@ -1,0 +1,1 @@
+const topics=["HTML","CSS","JavaScript"]; const list=document.querySelector("#topics"); function render(){list.innerHTML="";topics.forEach((topic,i)=>{const li=document.createElement("li");li.textContent=`${i+1}. ${topic}`;list.appendChild(li);});} document.querySelector("#add").addEventListener("click",()=>{if(!topics.includes("DOM"))topics.push("DOM");render();});render();

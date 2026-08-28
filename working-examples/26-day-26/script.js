@@ -1,0 +1,1 @@
+document.querySelector("#announce").addEventListener("click",()=>{const value=document.querySelector("#messageInput").value.trim();document.querySelector("#live").textContent=value?`You entered: ${value}`:"Please enter a message.";});

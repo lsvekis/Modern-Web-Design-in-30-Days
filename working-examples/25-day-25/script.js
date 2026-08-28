@@ -1,0 +1,1 @@
+let count=0;const countDisplay=document.querySelector("#count");function renderCount(){countDisplay.textContent=count;}function increaseCount(){count++;renderCount();}function resetCount(){count=0;renderCount();}document.querySelector("#increase").addEventListener("click",increaseCount);document.querySelector("#reset").addEventListener("click",resetCount);

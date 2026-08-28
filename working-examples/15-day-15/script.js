@@ -1,0 +1,1 @@
+const out=document.querySelector("#eventOutput"); document.querySelector("#clicker").addEventListener("click",()=>out.textContent="Click event fired!"); document.querySelector("#live").addEventListener("input",e=>out.textContent=`Input event: ${e.target.value}`);

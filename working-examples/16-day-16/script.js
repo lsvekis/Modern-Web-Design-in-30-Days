@@ -1,0 +1,1 @@
+const input=document.querySelector("#ageInput"),result=document.querySelector("#result"); document.querySelector("#checkAge").addEventListener("click",()=>{if(!input.value){result.textContent="Please enter a value.";return;} const age=Number(input.value); result.textContent=age>=18?"Adult range entered.":"Under 18 range entered.";});

@@ -1,0 +1,1 @@
+const name="Alex"; let count=0; document.querySelector("#run").addEventListener("click",()=>{count++; document.querySelector("#output").textContent=`Hello ${name}. Button clicked ${count} time${count===1?"":"s"}.`; console.log("count:",count);});

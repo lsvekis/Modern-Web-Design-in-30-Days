@@ -1,0 +1,1 @@
+function runDiagnostic(){const data={status:"ok",items:3};console.log("Diagnostic data:",data);document.querySelector("#log").textContent=JSON.stringify(data,null,2);}document.querySelector("#test").addEventListener("click",runDiagnostic);

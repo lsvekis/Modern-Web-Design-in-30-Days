@@ -1,0 +1,1 @@
+function makeGreeting(name){return `Hello ${name}!`;} function showGreeting(){const name=document.querySelector("#person").value.trim()||"friend";document.querySelector("#message").textContent=makeGreeting(name);} document.querySelector("#greet").addEventListener("click",showGreeting);

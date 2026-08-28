@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; padding: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+.grid article { padding: 20px; border: 1px solid #ddd; }
+@media (min-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
